@@ -10,14 +10,13 @@ module.exports = {
         blue: '#005e9e',
       },
       textShadow: {
-        sm: '0 1px 2px var(--tw-shadow-color)',
-        DEFAULT: '0 2px 4px var(--tw-shadow-color)',
-        lg: '0 8px 16px var(--tw-shadow-color)',
+        sm: '0 1px 2px #000000',
+        DEFAULT: '0 2px 4px #000000',
+        lg: '0 8px 16px #000000',
       },
     },
     fontFamily: {
       nunito: ['nunito', 'sans-serif'],
-      MyFont: ['"My Font"', 'serif'], // Ensure fonts with spaces have " " surrounding it.
     },
     container: {
       center: true,
