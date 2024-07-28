@@ -726,12 +726,8 @@ body {
   margin-right: auto;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.me-5 {
-  margin-inline-end: 1.25rem;
+.me-7 {
+  margin-inline-end: 1.75rem;
 }
 
 .ms-3 {
@@ -744,18 +740,6 @@ body {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.me-7 {
-  margin-inline-end: 1.75rem;
-}
-
-.me-6 {
-  margin-inline-end: 1.5rem;
-}
-
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 
 .box-border {
@@ -857,17 +841,14 @@ body {
   display: none;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-max {
   height: -moz-max-content;
   height: max-content;
 }
 
-.h-12 {
-  height: 3rem;
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .w-\[this-is\\\\\] {
@@ -2065,14 +2046,14 @@ body {
   font-family: nunito, sans-serif;
 }
 
-.text-xs {
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -2570,14 +2551,6 @@ body {
       max-width: 1200px;
     }
   }
-}
-
-.hover\:m-0:hover {
-  margin: 0px;
-}
-
-.hover\:me-7:hover {
-  margin-inline-end: 1.75rem;
 }
 
 .hover\:border-b-2:hover {
