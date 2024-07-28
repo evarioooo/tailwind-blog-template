@@ -2559,6 +2559,10 @@ body {
   }
 }
 
+.hover\:m-0:hover {
+  margin: 0px;
+}
+
 .hover\:me-7:hover {
   margin-inline-end: 1.75rem;
 }
