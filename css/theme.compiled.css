@@ -1262,6 +1262,10 @@ body {
   grid-column: span 6 / span 6;
 }
 
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
+
 .float-start {
   float: inline-start;
 }
