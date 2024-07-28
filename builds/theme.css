@@ -2565,6 +2565,11 @@ body {
   border-color: rgb(0 94 158 / var(--tw-border-opacity));
 }
 
+.hover\:border-bluehover:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(40 118 238 / var(--tw-border-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
 }
