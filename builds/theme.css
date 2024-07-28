@@ -739,6 +739,10 @@ body {
   top: 0px;
 }
 
+.left-7 {
+  left: 1.75rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -927,6 +931,14 @@ body {
   height: 9rem;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -937,6 +949,10 @@ body {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .flex-shrink {
@@ -2072,6 +2088,10 @@ body {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .px-1 {
