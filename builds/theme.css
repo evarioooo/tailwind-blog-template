@@ -2759,8 +2759,16 @@ body {
     grid-column: span 1 / span 1;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:flex-row {
