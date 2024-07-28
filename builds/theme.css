@@ -743,6 +743,18 @@ body {
   left: 1.75rem;
 }
 
+.-top-0 {
+  top: -0px;
+}
+
+.-top-5 {
+  top: -1.25rem;
+}
+
+.-top-3 {
+  top: -0.75rem;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -939,6 +951,22 @@ body {
   height: 5rem;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[62\] {
+  height: 62;
+}
+
+.h-\[62px\] {
+  height: 62px;
+}
+
+.h-\[64px\] {
+  height: 64px;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -953,6 +981,26 @@ body {
 
 .w-24 {
   width: 6rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[470\] {
+  width: 470;
+}
+
+.w-\[470px\] {
+  width: 470px;
+}
+
+.w-\[472px\] {
+  width: 472px;
 }
 
 .flex-shrink {
@@ -1966,6 +2014,10 @@ body {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .bg-gradient-to-t {
