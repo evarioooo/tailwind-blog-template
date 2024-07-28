@@ -845,6 +845,18 @@ body {
   display: none;
 }
 
+.h-44 {
+  height: 11rem;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-36 {
+  height: 9rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
