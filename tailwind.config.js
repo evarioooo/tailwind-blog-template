@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         dark: '#121212',
         blue: '#005e9e',
+        bluehover: '#005e9e',
       },
       textShadow: {
         sm: '0 1px 2px #000000',
