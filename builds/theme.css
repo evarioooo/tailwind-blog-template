@@ -848,6 +848,10 @@ body {
   margin-top: 0.5rem;
 }
 
+.ms-9 {
+  margin-inline-start: 2.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2277,6 +2281,10 @@ body {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
 }
 
 .text-\[\#336699\]\/\[\.35\] {
