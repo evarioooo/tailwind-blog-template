@@ -804,6 +804,10 @@ body {
   margin-bottom: 2rem;
 }
 
+.me-12 {
+  margin-inline-end: 3rem;
+}
+
 .me-7 {
   margin-inline-end: 1.75rem;
 }
@@ -822,14 +826,6 @@ body {
 
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.me-8 {
-  margin-inline-end: 2rem;
-}
-
-.me-12 {
-  margin-inline-end: 3rem;
 }
 
 .box-border {
@@ -2080,6 +2076,11 @@ body {
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .p-1 {
