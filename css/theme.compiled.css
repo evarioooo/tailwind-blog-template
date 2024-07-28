@@ -3719,6 +3719,15 @@ body {
     --tw-border-opacity: 1;
     border-color: rgb(40 118 238 / var(--tw-border-opacity));
   }
+
+  .sm\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  }
+
+  .sm\:hover\:bg-transparent:hover {
+    background-color: transparent;
+  }
 }
 
 @media (min-width: 768px) {
