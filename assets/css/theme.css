@@ -20,6 +20,14 @@
         top: 3px;
     }
 
+    /* Sidebar partner */
+
+    #sidebar #partner .widget-content ul {}
+
+    #sidebar #partner .widget-content ul li {
+        background: red;
+    }
+
     @font-face {
         font-display: swap;
         /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
