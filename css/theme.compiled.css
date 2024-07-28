@@ -3653,6 +3653,14 @@ body {
     grid-column: span 1 / span 1;
   }
 
+  .sm\:ms-3 {
+    margin-inline-start: 0.75rem;
+  }
+
+  .sm\:me-7 {
+    margin-inline-end: 1.75rem;
+  }
+
   .sm\:block {
     display: block;
   }
