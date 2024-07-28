@@ -5,3 +5,6 @@
         background-color: #0b0b0b;
     }
 }
+
+@tailwind components;
+@tailwind utilities;
