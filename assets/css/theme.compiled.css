@@ -1328,16 +1328,20 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.mb-2\.5 {
+  margin-bottom: 0.625rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-8 {
   margin-bottom: 2rem;
 }
 
 .me-12 {
   margin-inline-end: 3rem;
-}
-
-.ms-5 {
-  margin-inline-start: 1.25rem;
 }
 
 .ms-9 {
@@ -1358,14 +1362,6 @@ body {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.mb-2\.5 {
-  margin-bottom: 0.625rem;
-}
-
-.mb-4 {
-  margin-bottom: 1rem;
 }
 
 .box-border {
@@ -1471,6 +1467,14 @@ body {
   height: 2.5rem;
 }
 
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-2\.5 {
+  height: 0.625rem;
+}
+
 .h-36 {
   height: 9rem;
 }
@@ -1499,14 +1503,6 @@ body {
   height: 100%;
 }
 
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-2\.5 {
-  height: 0.625rem;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -1517,6 +1513,10 @@ body {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-48 {
+  width: 12rem;
 }
 
 .w-5 {
@@ -1545,10 +1545,6 @@ body {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .max-w-\[300px\] {
@@ -2481,12 +2477,12 @@ body {
   border-radius: 0.25rem;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .rounded-b {
@@ -2906,6 +2902,10 @@ body {
   padding-bottom: 0.75rem;
 }
 
+.pe-3 {
+  padding-inline-end: 0.75rem;
+}
+
 .ps-5 {
   padding-inline-start: 1.25rem;
 }
@@ -3127,6 +3127,11 @@ body {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-rose-500 {
+  --tw-text-opacity: 1;
+  color: rgb(244 63 94 / var(--tw-text-opacity));
 }
 
 .underline {
