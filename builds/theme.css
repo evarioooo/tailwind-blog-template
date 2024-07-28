@@ -851,6 +851,10 @@ body {
   height: fit-content;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
