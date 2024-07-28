@@ -1,0 +1,110 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="theme.js"></script>
+    <style type="text/tailwindcss" src="theme.css">
+        @layer base {
+            body {
+                background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+                background-size: 10px 10px;
+                background-color: #0b0b0b;
+            }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
+    <title>Tailwind Blog Template by evarioo</title>
+</head>
+
+<body class="">
+
+
+    <div class="container mx-auto" id="site-wrapper">
+
+        <header>
+            Header Site
+        </header>
+
+        <nav class="p-1 bg-blue">
+            <!-- * bg-gradient-to-t from-blue-800 to-blue-600 -->
+
+            <div class="flex justify-between items-end">
+                <ul class="mb-1 flex flex-row ms-3 font-nunito text-white">
+                    <li class="me-5">
+                        <a class="shadow-md" href="#">Startseite</a>
+                    </li>
+                    <li class="me-5">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="me-5">
+                        <a href="#">Referenzen</a>
+                    </li>
+                    <li class="me-5">
+                        <a href="#">Über evarioo</a>
+                    </li>
+                </ul>
+                <ul class="flex flex-row">
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+        <main class="bg-white">
+
+            <div class="grid grid-cols-12 gap-4">
+
+                <div class="col-span-6">1</div>
+                <div class="col-span-3">2</div>
+                <div class="col-span-3">3</div>
+
+            </div>
+
+        </main>
+
+        <footer class="bg-dark text-xs text-gray-600 font-nunito">
+
+            <div class="flex justify-between">
+                <div class="p-2">
+                    <p class="mt-1 font-bold">Copyright 2024 - 2025 www.evarioo.de | Alle Rechte vorbehalten</p>
+                    <p>Seite wurde aufgebaut in 0.025 Millisekunden</p>
+                </div>
+                <ul class="p-1 flex flex-row">
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                    <li>
+                        <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
+                            title="Folge mir auf Linkedin" />
+                    </li>
+                </ul>
+            </div>
+
+
+        </footer>
+
+    </div>
+
+
+</body>
+
+</html>
