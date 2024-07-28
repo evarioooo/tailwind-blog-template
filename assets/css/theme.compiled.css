@@ -921,10 +921,10 @@ body {
 
 /* Sidebar partner */
 
-#sidebar #partner .widget-content ul {
+#sidebar #partner ul {
 }
 
-#sidebar #partner .widget-content ul li {
+#sidebar #partner ul li {
   background: red;
 }
 
