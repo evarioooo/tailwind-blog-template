@@ -1507,6 +1507,18 @@ body {
   height: 100%;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1549,6 +1561,18 @@ body {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-44 {
+  width: 11rem;
 }
 
 .max-w-\[300px\] {
