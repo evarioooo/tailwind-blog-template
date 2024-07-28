@@ -1262,10 +1262,6 @@ body {
   grid-column: span 6 / span 6;
 }
 
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-
 .float-start {
   float: inline-start;
 }
@@ -1329,14 +1325,6 @@ body {
 
 .me-12 {
   margin-inline-end: 3rem;
-}
-
-.me-7 {
-  margin-inline-end: 1.75rem;
-}
-
-.ms-3 {
-  margin-inline-start: 0.75rem;
 }
 
 .ms-9 {
@@ -1476,6 +1464,10 @@ body {
 
 .h-\[80px\] {
   height: 80px;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-1\/2 {
@@ -2785,10 +2777,6 @@ body {
   padding: 1rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3653,12 +3641,16 @@ body {
     grid-column: span 1 / span 1;
   }
 
+  .sm\:me-7 {
+    margin-inline-end: 1.75rem;
+  }
+
   .sm\:ms-3 {
     margin-inline-start: 0.75rem;
   }
 
-  .sm\:me-7 {
-    margin-inline-end: 1.75rem;
+  .sm\:mt-0 {
+    margin-top: 0px;
   }
 
   .sm\:block {
