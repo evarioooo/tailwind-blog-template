@@ -42,5 +42,6 @@ module.exports = {
         { values: theme('textShadow') }
       );
     }),
+    require('flowbite/plugin'),
   ],
 };
