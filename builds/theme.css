@@ -742,6 +742,10 @@ body {
   margin-top: 0.5rem;
 }
 
+.ms-5 {
+  margin-inline-start: 1.25rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
