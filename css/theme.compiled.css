@@ -2781,6 +2781,10 @@ body {
   padding: 1rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -3645,6 +3649,10 @@ body {
     grid-column: span 1 / span 1;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -3655,6 +3663,10 @@ body {
 
   .sm\:gap-4 {
     gap: 1rem;
+  }
+
+  .sm\:p-0 {
+    padding: 0px;
   }
 
   .sm\:underline {

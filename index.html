@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/theme.compiled.css" rel="stylesheet">
-    <script src="./js/theme.js"></script>
     <title>Tailwind Blog Template by evarioo</title>
 </head>
 
@@ -13,7 +12,7 @@
     <div class="container mx-auto" id="site-wrapper">
         <header class="h-36 flex justify-between items-end">
             <h2 class="-bottom-3.5 tracking-tight relative font-roboto text-white text-8xl ms-9">evarioo</h2>
-            <div class="mb-8 me-12">
+            <div class="hidden sm:block mb-8 me-12">
                 <div class="flex justify-center items-center w-[472px] h-[80px] align-middle border-zinc-100 border-2">
                     <img class="object-contain object-center"
                         src="https://media.devboard.eu/banner/banner-468x60px-animiert.gif" />
@@ -23,35 +22,39 @@
         <nav class="bg-blue rounded-t-lg">
             <!-- * bg-gradient-to-t from-blue-800 to-blue-600 -->
             <div class="flex justify-between items-end">
-                <ul id="navbar-default" class="hidden sm:flex text-sm flex-row ms-3 font-nunito text-white">
-                    <li
-                        class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
-                        <a class="" href="#">Startseite</a>
-                    </li>
-                    <li
-                        class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li
-                        class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
-                        <a href="#">Referenzen</a>
-                    </li>
-                    <li
-                        class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
-                        <a href="#">Über evarioo</a>
-                    </li>
-                </ul>
-                <button data-collapse-toggle="navbar-default" type="button"
-                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-                    aria-controls="navbar-default" aria-expanded="false">
-                    <span class="sr-only">Open main menu</span>
-                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
-                        viewBox="0 0 17 14">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 1h15M1 7h15M1 13h15" />
-                    </svg>
-                </button>
-                <ul class="flex flex-row">
+                <div class="p-1 sm:p-0">
+                    <button data-collapse-toggle="navbar-default" type="button"
+                        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                        aria-controls="navbar-default" aria-expanded="false">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15" />
+                        </svg>
+                    </button>
+                    <ul id="navbar-default" class="hidden sm:flex text-sm flex-row ms-3 font-nunito text-white">
+                        <li
+                            class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
+                            <a class="" href="#">Startseite</a>
+                        </li>
+                        <li
+                            class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
+                            <a href="#">Portfolio</a>
+                        </li>
+                        <li
+                            class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
+                            <a href="#">Referenzen</a>
+                        </li>
+                        <li
+                            class="hover:font-bold hover:border-b-4 pb-1 px-2 hover:border-bluehover border-b-4 border-transparent me-7 text-shadow-sm">
+                            <a href="#">Über evarioo</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <ul class="hidden sm:flex flex-row">
                     <li>
                         <img class="drop-shadow-md hover:opacity-[0.89]" src="images/social/linkedin.png"
                             title="Folge mir auf Linkedin" />
@@ -97,6 +100,7 @@
             </div>
         </footer>
     </div>
+    <script src="./node_modules/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
