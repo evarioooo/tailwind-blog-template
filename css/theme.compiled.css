@@ -1339,6 +1339,10 @@ body {
   margin-top: 0.5rem;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2532,10 +2536,6 @@ body {
   border-bottom-width: 1px;
 }
 
-.border-b-4 {
-  border-bottom-width: 4px;
-}
-
 .border-e {
   border-inline-end-width: 1px;
 }
@@ -2590,10 +2590,6 @@ body {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.border-transparent {
-  border-color: transparent;
-}
-
 .border-zinc-100 {
   --tw-border-opacity: 1;
   border-color: rgb(244 244 245 / var(--tw-border-opacity));
@@ -2631,6 +2627,11 @@ body {
 
 .bg-gray-900\/50 {
   background-color: rgb(17 24 39 / 0.5);
+}
+
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -2773,12 +2774,12 @@ body {
   padding: 0.625rem;
 }
 
-.p-4 {
-  padding: 1rem;
-}
-
 .p-3 {
   padding: 0.75rem;
+}
+
+.p-4 {
+  padding: 1rem;
 }
 
 .px-1 {
@@ -2816,20 +2817,8 @@ body {
   padding-bottom: 0.75rem;
 }
 
-.pb-1 {
-  padding-bottom: 0.25rem;
-}
-
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
 }
 
 .text-left {
@@ -3479,18 +3468,14 @@ body {
   }
 }
 
-.hover\:border-b-4:hover {
-  border-bottom-width: 4px;
-}
-
-.hover\:border-bluehover:hover {
-  --tw-border-opacity: 1;
-  border-color: rgb(40 118 238 / var(--tw-border-opacity));
-}
-
 .hover\:border-gray-300:hover {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
+}
+
+.hover\:bg-dark:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-100:hover {
@@ -3501,11 +3486,6 @@ body {
 .hover\:bg-white:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-dark:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 18 18 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
@@ -3718,11 +3698,6 @@ body {
   .sm\:hover\:border-bluehover:hover {
     --tw-border-opacity: 1;
     border-color: rgb(40 118 238 / var(--tw-border-opacity));
-  }
-
-  .sm\:hover\:bg-dark:hover {
-    --tw-bg-opacity: 1;
-    background-color: rgb(18 18 18 / var(--tw-bg-opacity));
   }
 
   .sm\:hover\:bg-transparent:hover {
