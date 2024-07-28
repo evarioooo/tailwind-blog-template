@@ -18,6 +18,7 @@ module.exports = {
     },
     fontFamily: {
       nunito: ['nunito', 'sans-serif'],
+      roboto: ['roboto', 'sans-serif'],
     },
     container: {
       center: true,
