@@ -857,6 +857,19 @@ body {
   display: none;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-max {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
