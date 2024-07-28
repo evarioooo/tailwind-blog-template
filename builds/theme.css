@@ -863,6 +863,10 @@ body {
   width: weird-and-invalid;
 }
 
+.flex-1 {
+  flex: 1 1 0%;
+}
+
 .flex-shrink {
   flex-shrink: 1;
 }
