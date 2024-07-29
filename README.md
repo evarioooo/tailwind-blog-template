@@ -1,6 +1,10 @@
 ## TailwindCSS Blog Template
 
-This template is made with mutch more love and complete for free. You can use it for your personal blog but don´t for your shop.
+This template is made with mutch more love and complete for free.
+
+## Live preview
+
+<a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/evarioooo/tailwind-blog-template/main/index.html">Live preview on htmlpreview.github.io</a>
 
 ## Installation
 
