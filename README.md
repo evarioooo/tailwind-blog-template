@@ -12,6 +12,8 @@ For some examples to show i have some "templates" from this theme created. One w
 
 Please show all files in the zip <3
 
+Thx <a href="https://github.com/syntafin/">SYNTAFIN</a>
+
 ## Installation
 
 This template use the css framework tailwindcss and is complete free to use and opensource. The only thing you must do is install the framework with npm. Follow above steps for the correct installations structure.
