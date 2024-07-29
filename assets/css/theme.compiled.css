@@ -2948,6 +2948,10 @@ body {
   padding-top: 1.5rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3854,6 +3858,10 @@ body {
     padding-bottom: 0.25rem;
   }
 
+  .sm\:pt-3 {
+    padding-top: 0.75rem;
+  }
+
   .sm\:underline {
     text-decoration-line: underline;
   }
@@ -3905,6 +3913,10 @@ body {
 
   .lg\:block {
     display: block;
+  }
+
+  .lg\:pt-3 {
+    padding-top: 0.75rem;
   }
 
   .dark\:lg\:hover\:\[paint-order\:markers\]:hover:is(.dark *) {
