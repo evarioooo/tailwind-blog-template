@@ -3800,6 +3800,10 @@ body {
   .md\:hidden {
     display: none;
   }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
 }
 
 @media (min-width: 1024px) {
