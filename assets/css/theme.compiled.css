@@ -1512,6 +1512,10 @@ body {
   height: 100%;
 }
 
+.h-8 {
+  height: 2rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -1554,6 +1558,10 @@ body {
 
 .w-\[weird-and-invalid\] {
   width: weird-and-invalid;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .flex-1 {
@@ -2462,6 +2470,10 @@ body {
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-b {
@@ -3776,6 +3788,10 @@ body {
 
   .sm\:mt-0 {
     margin-top: 0px;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:flex-row-reverse {
