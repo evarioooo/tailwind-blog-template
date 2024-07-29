@@ -915,7 +915,8 @@ body {
   background-color: #0b0b0b;
 }
 
-#sidebar h6::before {
+#sidebar h6::before,
+    #sidebar2nd h6::before {
   content: '»';
 }
 

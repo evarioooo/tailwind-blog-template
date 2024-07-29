@@ -9,14 +9,9 @@
         background-color: #0b0b0b;
     }
 
-    #sidebar h6::before {
-        content: '»';
-    }
-
-
     #sidebar h6::before,
-    #2ndsidebar h6::before {
-        margin-left: 5px;
+    #sidebar2nd h6::before {
+        content: '»';
     }
 
     .svg-heart {
