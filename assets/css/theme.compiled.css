@@ -1541,6 +1541,18 @@ body {
   height: max-content;
 }
 
+.h-svh {
+  height: 100svh;
+}
+
+.h-64 {
+  height: 16rem;
+}
+
+.min-h-lvh {
+  min-height: 100lvh;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -3082,6 +3094,11 @@ body {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -3176,6 +3193,18 @@ body {
 
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-8 {
+  line-height: 2rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .tracking-tight {
