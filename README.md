@@ -12,7 +12,7 @@ For some examples to show i have some "templates" from this theme created. One w
 
 Please show all files in the zip <3
 
-Thx <a href="https://github.com/syntafin/">SYNTAFIN</a>
+Thx <a style="background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" href="https://github.com/syntafin/">SYNTAFIN</a>
 
 ## Installation
 
