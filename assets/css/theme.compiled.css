@@ -2706,6 +2706,12 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-bluehover {
+  --tw-gradient-from: #2876ee var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(40 118 238 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-white {
   --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
 }
