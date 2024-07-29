@@ -3625,6 +3625,11 @@ body {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 94 158 / var(--tw-text-opacity));
+}
+
 .hover\:opacity-\[0\.89\]:hover {
   opacity: 0.89;
 }
@@ -3865,4 +3870,20 @@ body {
 
 .rtl\:space-x-reverse:where([dir="rtl"], [dir="rtl"] *) > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 1;
+}
+
+.\[\&\:nth-child\(n\+2\)\]\:mt-5:nth-child(n+2) {
+  margin-top: 1.25rem;
+}
+
+.\[\&\:nth-child\(n\+2\)\]\:mt-4:nth-child(n+2) {
+  margin-top: 1rem;
+}
+
+.\[\&\:nth-child\(n\+3\)\]\:mt-5:nth-child(n+3) {
+  margin-top: 1.25rem;
+}
+
+.\[\&\:nth-child\(n\+3\)\]\:uppercase:nth-child(n+3) {
+  text-transform: uppercase;
 }
