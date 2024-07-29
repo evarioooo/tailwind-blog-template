@@ -1369,6 +1369,14 @@ body {
   margin-top: 1rem;
 }
 
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
+.ms-4 {
+  margin-inline-start: 1rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2873,6 +2881,16 @@ body {
   padding-bottom: 0.75rem;
 }
 
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .pe-3 {
   padding-inline-end: 0.75rem;
 }
@@ -2971,6 +2989,21 @@ body {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -3518,6 +3551,10 @@ body {
   text-shadow: 0 1px 2px #000000;
 }
 
+.text-shadow-lg {
+  text-shadow: 0 8px 16px #000000;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -3795,6 +3832,10 @@ body {
 
   .md\:hidden {
     display: none;
+  }
+
+  .md\:gap-4 {
+    gap: 1rem;
   }
 
   .md\:p-0 {
