@@ -1323,10 +1323,6 @@ body {
   margin: 0px;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .mx-1 {
   margin-left: 0.25rem;
   margin-right: 0.25rem;
@@ -1337,29 +1333,24 @@ body {
   margin-right: auto;
 }
 
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .my-1 {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-1 {
@@ -1378,6 +1369,10 @@ body {
   margin-bottom: 1rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -1388,6 +1383,10 @@ body {
 
 .me-12 {
   margin-inline-end: 3rem;
+}
+
+.me-2 {
+  margin-inline-end: 0.5rem;
 }
 
 .ms-0 {
@@ -1418,8 +1417,8 @@ body {
   margin-top: 1rem;
 }
 
-.me-2 {
-  margin-inline-end: 0.5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .box-border {
@@ -1559,6 +1558,10 @@ body {
 
 .h-full {
   height: 100%;
+}
+
+.h-px {
+  height: 1px;
 }
 
 .w-1\/2 {
@@ -2792,6 +2795,11 @@ body {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
@@ -3124,6 +3132,11 @@ body {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-xs {
