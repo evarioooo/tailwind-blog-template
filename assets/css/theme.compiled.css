@@ -2712,8 +2712,22 @@ body {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
+.from-blue {
+  --tw-gradient-from: #005e9e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(0 94 158 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .to-white {
   --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
+}
+
+.to-blue {
+  --tw-gradient-to: #005e9e var(--tw-gradient-to-position);
+}
+
+.to-bluehover {
+  --tw-gradient-to: #2876ee var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
