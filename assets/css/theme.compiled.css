@@ -2885,6 +2885,14 @@ body {
   padding-top: 0.5rem;
 }
 
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3798,6 +3806,14 @@ body {
 }
 
 @media (min-width: 768px) {
+  .md\:-bottom-3\.5 {
+    bottom: -0.875rem;
+  }
+
+  .md\:mt-3 {
+    margin-top: 0.75rem;
+  }
+
   .md\:block {
     display: block;
   }
@@ -3810,8 +3826,16 @@ body {
     display: none;
   }
 
+  .md\:h-36 {
+    height: 9rem;
+  }
+
   .md\:p-0 {
     padding: 0px;
+  }
+
+  .md\:pt-0 {
+    padding-top: 0px;
   }
 
   .md\:hover\:bg-dark:hover {
