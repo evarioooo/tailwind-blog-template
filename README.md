@@ -26,4 +26,4 @@ Foto von Godfrey Atima: https://www.pexels.com/de-de/foto/bildschirm-tiefenschar
 
 This theme is made by evarioo and Alexander Bergmann as respective person. You can edit, use and share this template but the credits are mine. Tell your friends from this free stuff but think on .. the credits are mine ;)
 
-This template is published under the MIT2 License
+This template is published under the MIT License
