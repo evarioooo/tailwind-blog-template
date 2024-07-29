@@ -8,7 +8,9 @@ This template is made with mutch more love and complete for free.
 
 ## Examples
 
-For some examples to show i have some "templates" from this theme created. One with only one sidebar, another one news without sidebar
+For some examples to show i have some "templates" from this theme created. One with only one sidebar, another one news without sidebar etc.
+
+Please show all files in the zip <3
 
 ## Installation
 
