@@ -3676,6 +3676,11 @@ body {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+.focus\:ring-blue:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(0 94 158 / var(--tw-ring-opacity));
+}
+
 .focus\:hover\:text-center:hover:focus {
   text-align: center;
 }
