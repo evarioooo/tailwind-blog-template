@@ -8,7 +8,12 @@
     <title>Tailwind Blog Template by evarioo</title>
 </head>
 
-<body>
+<!-- Wenn du die Schriftart für die gesamte Seite ändern möchtest solltest du hier ansetzen.
+Aktuell gibt es:
+1. font-nunito
+2. font-roboto -->
+
+<body class="font-nunito">
     <div class="container mx-auto pt-6 md:pt-0" id="site-wrapper">
         <header class="hidden md:flex h-36 justify-between items-end">
             <h2 class="md:block hidden -bottom-3.5 tracking-tight relative font-roboto text-white text-8xl ms-9">evarioo
@@ -20,8 +25,8 @@
                 </div>
             </div>
         </header>
+        <!-- * bg-gradient-to-t from-blue to-bluehover -->
         <nav class="bg-blue bg-gradient-to-t from-blue to-bluehover rounded-t-lg">
-            <!-- * bg-gradient-to-t from-blue-800 to-blue-600 -->
             <div class="grid grid-cols-2 md:gap-4 gap-0">
                 <div class="col-span-2 sm:col-span-1 p-1 md:p-0">
                     <button data-collapse-toggle="navbar-default" type="button"
