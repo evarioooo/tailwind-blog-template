@@ -3804,6 +3804,11 @@ body {
   .md\:p-0 {
     padding: 0px;
   }
+
+  .md\:hover\:bg-dark:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+  }
 }
 
 @media (min-width: 1024px) {
