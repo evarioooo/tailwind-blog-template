@@ -1199,10 +1199,6 @@ body {
   inset: 0px;
 }
 
-.-bottom-3\.5 {
-  bottom: -0.875rem;
-}
-
 .-top-\[3px\] {
   top: -3px;
 }
@@ -1257,6 +1253,10 @@ body {
 
 .z-50 {
   z-index: 50;
+}
+
+.z-0 {
+  z-index: 0;
 }
 
 .col-span-12 {
@@ -2697,6 +2697,11 @@ body {
   background-color: rgb(17 24 39 / 0.5);
 }
 
+.bg-red-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -2704,11 +2709,6 @@ body {
 
 .bg-white\/50 {
   background-color: rgb(255 255 255 / 0.5);
-}
-
-.bg-red-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(200 30 30 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -2932,14 +2932,6 @@ body {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
-}
-
-.pt-3 {
-  padding-top: 0.75rem;
 }
 
 .text-left {
