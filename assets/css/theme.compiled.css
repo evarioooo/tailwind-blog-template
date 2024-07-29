@@ -3766,6 +3766,11 @@ body {
     padding-right: 0.5rem;
   }
 
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
   .sm\:pb-1 {
     padding-bottom: 0.25rem;
   }
