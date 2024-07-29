@@ -1275,6 +1275,10 @@ body {
   grid-column: span 2 / span 2;
 }
 
+.col-span-9 {
+  grid-column: span 9 / span 9;
+}
+
 .float-start {
   float: inline-start;
 }
@@ -2006,6 +2010,10 @@ body {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.grid-cols-9 {
+  grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .flex-row {
