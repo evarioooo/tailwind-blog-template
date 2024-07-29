@@ -1349,8 +1349,8 @@ body {
   margin-inline-end: 3rem;
 }
 
-.ms-4 {
-  margin-inline-start: 1rem;
+.ms-2 {
+  margin-inline-start: 0.5rem;
 }
 
 .ms-9 {
@@ -1371,10 +1371,6 @@ body {
 
 .mt-4 {
   margin-top: 1rem;
-}
-
-.ms-2 {
-  margin-inline-start: 0.5rem;
 }
 
 .box-border {
@@ -2654,11 +2650,6 @@ body {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-blue {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 94 158 / var(--tw-bg-opacity));
-}
-
 .bg-dark {
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));
@@ -2700,34 +2691,24 @@ body {
   background-image: linear-gradient(to top, var(--tw-gradient-stops));
 }
 
+.from-blue950 {
+  --tw-gradient-from: #172554 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(23 37 84 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
 .from-gray-400 {
   --tw-gradient-from: #9CA3AF var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(156 163 175 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-bluehover {
-  --tw-gradient-from: #2876ee var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(40 118 238 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-blue {
-  --tw-gradient-from: #005e9e var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(0 94 158 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+.to-blue900 {
+  --tw-gradient-to: #1e3a8a var(--tw-gradient-to-position);
 }
 
 .to-white {
   --tw-gradient-to: #ffffff var(--tw-gradient-to-position);
-}
-
-.to-blue {
-  --tw-gradient-to: #005e9e var(--tw-gradient-to-position);
-}
-
-.to-bluehover {
-  --tw-gradient-to: #2876ee var(--tw-gradient-to-position);
 }
 
 .decoration-slice {
@@ -3748,14 +3729,6 @@ body {
     grid-column: span 1 / span 1;
   }
 
-  .sm\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-
-  .sm\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
   .sm\:me-4 {
     margin-inline-end: 1rem;
   }
@@ -3816,14 +3789,6 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:col-span-3 {
-    grid-column: span 3 / span 3;
-  }
-
-  .md\:col-span-6 {
-    grid-column: span 6 / span 6;
-  }
-
   .md\:mb-0 {
     margin-bottom: 0px;
   }
