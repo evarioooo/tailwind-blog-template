@@ -6,6 +6,10 @@ This template is made with mutch more love and complete for free.
 
 <a href="https://htmlpreview.github.io/?https://raw.githubusercontent.com/evarioooo/tailwind-blog-template/main/index.html">Live preview on htmlpreview.github.io</a>
 
+## Examples
+
+For some examples to show i have some "templates" from this theme created. One with only one sidebar, another one news without sidebar
+
 ## Installation
 
 This template use the css framework tailwindcss and is complete free to use and opensource. The only thing you must do is install the framework with npm. Follow above steps for the correct installations structure.
