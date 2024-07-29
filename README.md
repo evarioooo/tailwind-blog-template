@@ -6,6 +6,6 @@ This template use the css framework tailwindcss and is complete free to use and 
 
 Requirements are npm and nodejs <3
 
-# First install tailwindcss
+# First install tailwindcss and other dependcies
 
-`` asd ``
+`` npm install ``
